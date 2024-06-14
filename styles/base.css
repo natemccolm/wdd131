@@ -1,0 +1,143 @@
+
+:root {
+    --primary-color: #267D7B;
+    --secondary-color: #23395B;
+    --accent1-color: #4E91DD;
+    --accent2-color: #03524E;
+
+    --heading-font: 'Roboto', serif;
+    --paragraph-font: 'Nunito Sans', sans-serif;
+
+    --nav-background-color: var(--accent1-color);
+    --nav-link-color: #eef;
+    --nav-hover-link-color:  var(--accent1-color);
+    --nav-hover-background-color:#eef;
+}
+
+
+header {
+    background-color: #a7d1cf;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+}
+
+header h1{
+    display: grid;
+    background-color:  #03524E;
+    justify-content: center;
+}
+
+
+body {
+    font-family: var(--paragraph-font);
+    margin: 0 auto;
+    
+}
+
+
+main {
+padding-top: 10px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+flex-direction: row;
+position: relative;
+}
+
+nav {
+    display: flex;
+	color: rgb(255, 255, 255);
+	padding: 20px 20px;
+    text-align: center;
+	text-decoration: none;
+    justify-content: space-evenly;
+    
+}
+
+
+
+.main-content{
+
+    background-color:#23395B
+}
+
+
+.aside-content{
+
+    background-color: aqua;
+}
+
+footer {
+
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 25px 50px;
+    margin-top: 10px;
+    display: flex;
+
+
+}
+
+.card{
+    grid-template-columns: 1fr;
+    display: grid;
+    align-content: stretch;
+    justify-content: flex-start;
+    border-color: #7d2626;
+    border: 3px;
+    border-style: solid;
+    margin-top: 10px;
+    margin: 10px;
+}
+
+.title{
+    display: grid;
+    justify-content: center;
+    background-color: #333333;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+    height: 30px;
+    margin-top: 0px;
+    border: 1px;
+
+}
+
+.card ul{
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: auto;
+}
+
+.about_me_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+   
+}
+
+.wedding{
+    float: left;
+    margin-right: 20px;
+    max-width: 200px;
+    max-height: 200px;
+
+}
+
+.about_me_2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+   
+}
+
+.flag{
+    float: left;
+    margin-right: 20px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.explainer {
+    font-size: small;
+    padding-right: 30px;
+}
