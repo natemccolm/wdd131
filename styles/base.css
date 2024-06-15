@@ -150,3 +150,11 @@ footer {
 footer p {
     margin: 0px;
 }
+
+nav a:hover {
+	text-decoration:overline;
+}
+
+.active {
+	color: yellow;
+}
