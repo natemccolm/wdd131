@@ -1,23 +1,4 @@
 
-
-
-
-:root {
-    --primary-color: #267D7B;
-    --secondary-color: #23395B;
-    --accent1-color: #4E91DD;
-    --accent2-color: #03524E;
-
-    --heading-font: 'Roboto', serif;
-    --paragraph-font: 'Nunito Sans', sans-serif;
-
-    --nav-background-color: var(--accent1-color);
-    --nav-link-color: #eef;
-    --nav-hover-link-color:  var(--accent1-color);
-    --nav-hover-background-color:#eef;
-}
-
-
 header {
     background-color: #a7d1cf;
     background-repeat: no-repeat;
@@ -33,15 +14,13 @@ header h1{
 
 
 body {
-    font-family: var(--paragraph-font);
-    margin: 0 auto;
     .roboto-thin {
         font-family: "Roboto", sans-serif;
         font-weight: 100;
         font-style: normal;
       }
       
-      .roboto-regular {
+    .roboto-regular {
         font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-style: normal;
