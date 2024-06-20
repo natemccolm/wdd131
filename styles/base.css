@@ -19,7 +19,7 @@
 
 
 header {
-    background-color: #a7d1cf;
+    background-color: #333333;
     background-repeat: no-repeat;
     background-size: cover;
     width:100%;
@@ -27,20 +27,23 @@ header {
 
 header h1{
     display: grid;
-    background-color:  #03524E;
+    background-color:  #174e70;
     justify-content: center;
+    color: #d8f2fd;
 }
 
 .roboto-regular {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: #d8f2fd;
   }
   
   .roboto-medium {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
+    color:#d8f2fd;
   }
   
 
@@ -66,6 +69,7 @@ nav {
     text-align: center;
 	text-decoration: none;
     justify-content: space-evenly;
+    font-size: medium;
     
 }
 
@@ -169,4 +173,8 @@ nav a:hover {
 
 .active {
 	color: yellow;
+}
+
+nav a{
+    color: #FFFFFF
 }
