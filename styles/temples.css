@@ -78,3 +78,7 @@ footer {
     align-items: center;
 
 }
+
+div img {
+   max-width: 100px;
+}
