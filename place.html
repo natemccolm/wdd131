@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 131-Dynamic Web Fundamentals, Nathan McColm, Homepage">
+    <meta name="author" content="Nate McColm">
     <link rel="stylesheet" href="styles/place.css">
     <link rel="stylesheet" href="styles/place-large.css">
     <script src="scripts/place.js" defer></script>
-    <title>Freedom Land</title>
+    <title>Country Activity</title>
 </head>
 <body>
-    <main>
     <header>
         <h1>Scotland</h1>
         <img class="top-pic" src="/images/urquhart-castle-autumn.webp" alt='urquhart-castle-autumn'>
     </header>
+    <main>
+ 
 
     <div class="data">
         <h2 class="data-title">Data:</h2>
@@ -41,8 +44,8 @@
         </div>
     </div>
     <div class="weather">
-        <h2 class="weather-title">Weather:<img class='weather-icon' src="/images/1530391_weather_clouds_sun_sunny_icon.svg" alt="weather_clouds_sun_sunny_icon"></h2>
-            <img class="weather-icon-mobile" src="/images/1530391_weather_clouds_sun_sunny_icon.svg" alt="weather_clouds_sun_sunny_icon">
+        <h2 class="weather-title">Weather:<img class='weather-icon' src="(min-width:650px)" srcset="/images/1530391_weather_clouds_sun_sunny_icon.svg" alt="weather_clouds_sun_sunny_icon"></h2>
+            <img class="weather-icon-mobile" src='(max-width:650px)' srcset="/images/1530391_weather_clouds_sun_sunny_icon.svg" alt="weather_clouds_sun_sunny_icon" style="width: auto;">
             <div class="grid-split">
                 <ul class="data-list">
                     <li><b>Temperature:</b> </li>
