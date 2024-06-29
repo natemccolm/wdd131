@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+    <title>Freedom Land</title>
+</head>
+<body>
+    <main>
+    <header>
+        <h1>Scotland</h1>
+        <img class="top-pic" srcset="/images/urquhart-castle-autumn.webp">
+    </header>
+
+    <div class="data">
+        <h2 class="data-title">Data:</h2>
+            <div class="grid-split">
+            <ul class="data-list">
+                <br>
+                <li><b>Area:</b></li>
+                <br>
+                <li><b>Population:</b></li>
+                <br>
+                <li><b>Capital:</b></li>
+                <br>
+                <li><b>Languages:</b></li>
+                <br>
+                <li><b>Currency:</b></li>
+                <br>
+                <li><b>Time Zone:</b></li>
+                <br>
+                <li><b>Calling Code:</b></li>
+                <br>
+                <li><b>Flag Colors:</b></li>
+            </ul>
+            <ul class="data-list-values">
+                <br>
+                <li> 30,977 sqmi </li>
+                <br>
+                <li> 5,439,842 </li>
+                <br>
+                <li> Edinburgh</li>
+                <br>
+                <li> English, Scots </li>
+                <br>
+                <li> Pound Sterling </li>
+                <br>
+                <li> UTC+0 </li>
+                <br>
+                <li> +44 </li>
+                <br>
+                <li> Blue and White</li>
+            </ul>
+        </div>
+    </div>
+    <div class="weather">
+        <h2 class="weather-title">Weather:<img class='weather-icon' srcset="/images/1530391_weather_clouds_sun_sunny_icon.svg"></h2>
+            <img class="weather-icon-mobile" srcset="/images/1530391_weather_clouds_sun_sunny_icon.svg">
+            <ul class="grid-split">
+                <ul class="data-list">
+                    <li><b>Temperature:</b> </li>
+                    <br>
+                    <li><b>Conditions:</b> </li>
+                    <br>
+                    <li><b>Wind:</b> </li>
+                    <br>
+                    <li><b>Wind Chill:</b></li>
+                    <br>
+                </ul>
+                <ul class="data-list-values">
+                    <li> 52 F </li>
+                    <br>
+                    <li> Cloudy </li>
+                    <br>
+                    <li> 7 MPH </li>
+                    <br>
+                    <li><span id='calculateWindchill'></span></li>
+                    <br>
+                </ul>
+            </ul>
+    </div>
+    
+</main>
+<footer>
+    <p><span id="currentyear"></span></p>
+    <p id="lastModified"></p>
+</footer>
+</body>
+
+</html>
