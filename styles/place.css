@@ -1,9 +1,11 @@
 @media screen and (max-width: 650px) {
-
     :root{
         margin:0;
-        padding: 0px;
         background-color: aqua;
+        }
+    
+        :root {
+            padding: 0px;
         }
     header {
         width: 100%;

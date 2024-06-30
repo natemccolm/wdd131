@@ -14,10 +14,11 @@
         margin-top: -10px;
         
     }
-    .top-pic {
-        display:none;
+    .top-pic{
+        height: auto;
+        max-width: 100%;
+        display: none;
     }
-
 
     .roboto-regular {
         font-family: "Roboto", sans-serif;
