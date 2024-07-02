@@ -1,7 +1,7 @@
 @media screen and (min-width: 650px) {
 
     :root{
-    --margin:0;
+    --margin:0px;
     }
 
     :root {
@@ -14,8 +14,7 @@
         
     }
     .top-pic{
-        height: auto;
-        max-width: 100%;
+
         display: none;
     }
 
