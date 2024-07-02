@@ -2,7 +2,6 @@
 
     :root{
     margin:0;
-    background-color: aqua;
     }
 
     :root {
@@ -102,7 +101,7 @@
     }
 
     .weather-title::after {
-            content: url(&#x26C5);
+            content: '⛅';
     }
 
     .weather{
