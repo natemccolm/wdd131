@@ -7,6 +7,7 @@
         background-color: #333333;
         background-repeat: no-repeat;
         background-size: cover;
+        width:100%;
     }
 
     main{
@@ -80,12 +81,6 @@
     }
     
 
-    
-    img {
-       max-width: 100px;
-    }
-    
-
 
 
 
@@ -146,6 +141,18 @@ nav{
     content: 'X';
 }
 
+.templeImage{
+    height: 250px;
+    width: 400px;
+}
+
+section{
+    margin: 5px;
+    background-color: rgb(238 238 238);     
+    border-color: #174e70;
+    border-style: solid;
+    width:100%;
+}
 
 
 }

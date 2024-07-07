@@ -130,6 +130,7 @@ createTempleCard(temples);
 	img.setAttribute('src', temple.imageUrl);
 	img.setAttribute('alt', `${temple.templeName} Temple`);
 	img.setAttribute('loading','lazy');
+	img.setAttribute('class','templeImage');
 
 	card.appendChild(name);
 	card.appendChild(location);

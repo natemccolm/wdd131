@@ -3,6 +3,7 @@
     header{
         background-color: black;
         color: rgb(255, 255, 255);
+        width:100%;
     }
 
     main{
@@ -89,15 +90,12 @@ footer {
     align-items: center;
 }
 
-.grid{
+.res-grid{
     display: grid;
     gap: 1px;
     grid-template-columns: repeat(3, 1fr);
 }
 
-img {
-   max-width: 100px;
-}
 
 #menu.show::before {
     content:"X"
@@ -142,6 +140,19 @@ nav ul {
     display: none
 }
 
+.templeImage{
+    height: 250px;
+    width: 400px;
+
+}
+
+section{
+    margin: 5px;
+    background-color: rgb(238 238 238);     
+    border-color: #174e70;
+    border-style: solid;
+    width: 100%;
+}
 
 }
 
