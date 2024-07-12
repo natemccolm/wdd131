@@ -66,13 +66,13 @@ main {
 
 }
 
-.wf1 label {
+/*.wf1 label {
     display: block;
     padding-top: 1rem;
     color: red;
     font-size: .9rem;
 
-}
+}*/
 
 
 .wf1 div {
@@ -82,6 +82,9 @@ main {
 
 }
 
+.wf1 input[type='radio'] {
+    display: inline;
+}
 
 .wf1 input[type="text"], 
 .wf1 input[type="tel"],
@@ -101,9 +104,18 @@ main {
 }
 
 .wf1 input[type="radio"],
-.wf1 input[type="checkboxes"] {
+.wf1 input[type="checkbox"] {
     margin-right: 6px;
+}
 
+.wf1 fieldset label input[type="radio"] {
+    display: inline;
+}
+
+.checkboxLabel{
+    display: block;
+    padding-top: 1rem;
+    font-size: .9rem;
 }
 
 .wf1 input[type="submit"] {

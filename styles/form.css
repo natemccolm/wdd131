@@ -66,13 +66,13 @@ main {
 
 }
 
-.wf1 label {
+/*.wf1 label {
     display: block;
     padding-top: 1rem;
     color: red;
     font-size: .9rem;
 
-}
+}*/
 
 
 .wf1 div {
@@ -80,6 +80,10 @@ main {
     color: #445ba9;
     font-size: .9rem;
 
+}
+
+.wf1 div {
+    display: flex;
 }
 
 
