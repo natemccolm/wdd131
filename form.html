@@ -20,29 +20,20 @@
     <form method="get" action="review.html" class="wf1">
     <fieldset>
         <label>Product Name
-            <select name="product" required>
-                <option value=''>Select a product... &#9662;</option>
-                <option value="cybsec dummies">Cyber Security for Dummies</option>
-                <option value="js for dummies">Javascript for Dummies</option>
-                <option value="html dummies">HTML for Dummies</option>
-                <option value="sql dummies">SQL for Dummies</option>
-                <option value="dbs dummies">Database Structure for Dummies</option>
-                <option value="c dummies">C for Dummies</option>
-                <option value="c# dummies">C# for Dummies</option>
-                <option value="python dummies">Python for Dummies</option>
+            <select name="product" id="product" required>
             </select>
         </label>
 
        
         <div class="customer">Overall Rating</div>
-        <label><input type="radio" name="customer" value="1 star">&#9734;</label>
-        <label><input type="radio" name="customer" value="2 star">&#9734;&#9734;</label>
-        <label><input type="radio" name="customer" value="3 star">&#9734;&#9734;&#9734;</label>
-        <label><input type="radio" name="customer" value="4 star">&#9734;&#9734;&#9734;&#9734;</label>
-        <label><input type="radio" name="customer" value="5 star">&#9734;&#9734;&#9734;&#9734;&#9734;</label>
+        <label><input type="radio" name="customer" value="1 star" required>&#9734;</label>
+        <label><input type="radio" name="customer" value="2 star" required>&#9734;&#9734;</label>
+        <label><input type="radio" name="customer" value="3 star" required>&#9734;&#9734;&#9734;</label>
+        <label><input type="radio" name="customer" value="4 star" required>&#9734;&#9734;&#9734;&#9734;</label>
+        <label><input type="radio" name="customer" value="5 star" required>&#9734;&#9734;&#9734;&#9734;&#9734;</label>
 
         <div class="install">Date Installed
-        <label><input type='date' name="completedDate"> </label>
+        <label><input type='date' name="completedDate" required> </label>
         </div>
 
         <div>Which Features did you find useful in the product?</div>
