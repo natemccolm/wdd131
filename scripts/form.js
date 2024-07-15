@@ -54,3 +54,11 @@ const products = [
   }
 
   
+//let reviewCount=Number(localStorage.getItem("reviews")) || 0;
+ 
+//document.querySelector("#button").addEventListener('click', () => {
+//  count++;
+//localStorage.setItem("reviews",reviewCount);
+//document.getElementById("review").textContent=count;
+//  });
+ 
