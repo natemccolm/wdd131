@@ -105,6 +105,13 @@ main {
     border-bottom: rgb(68, 0, 255);
 }
 
+.wf1 select:required {
+    border-bottom: red;
+}
+
+.wf1 select:required:valid {
+    border-bottom: rgb(68, 0, 255);
+}
 
 .wf1 span{
     color: #445ba9;
