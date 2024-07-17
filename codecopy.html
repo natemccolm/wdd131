@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>WDD 131-Dynamic Web Fundamentals-Nate McColm</title> 
+        <meta name="description" content="WDD 131-Dynamic Web Fundamentals, Nathan McColm, Homepage">
+        <meta name="author" content="Nate McColm">
+        <link rel="stylesheet" href="styles/form.css">
+        <link rel="stylesheet" href="styles/form-large.css">
+        <script src="scripts/form.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<header>
+ <h1>Product Review</h1>
+    </header>
+    
+<main>
+    <form method="get" action="review.html" class="wf1">
+    <fieldset>
+        <label>Product Name
+            <select name="productName" id="productID">
+                <option disabled selected>Select a product...</option>
+            </select>
+        </label>
+
+       <div class="ratingLabel">Overall Rating</div>
+        <div class="customer"></div>
+        <label class='ratingLabel'><input type="radio" name="customer" for="1 star" required>&#9734;
+        <input type="radio" name="customer" for="2 star" required>&#9734;&#9734;
+        <input type="radio" name="customer" for="3 star" required>&#9734;&#9734;&#9734;
+        <input type="radio" name="customer" for="4 star" required>&#9734;&#9734;&#9734;&#9734;
+        <input type="radio" name="customer" for="5 star" required>&#9734;&#9734;&#9734;&#9734;&#9734;
+    
+
+        <label class="install">Date Installed</label>
+        <input type="date" name="completedDate" required>
+        
+        <label class="features"></label>
+        <div>Which Features did you find useful in the product?</div>
+        <p>Please check all that apply...</p>
+        <input type="checkbox" for="durability" value="Yes">Durability
+        <input type="checkbox" for="ease of Use" value="Yes">Coding
+        <input type="checkbox" for="performance" for="Yes">Preprocessor
+        <input type="checkbox" name="design" value="Yes">FTP Client
+        <label for="written review">Written Review<span class="optional">(optional)</span></lebal>
+        <label class="textArea"></label>
+            
+            <textarea id='textAreaID' name='textAreaName' rows="2" cols="200">
+
+            </textarea>
+        
+        <label for="'your name">Your name<span class="optional">(optional)</span></label>
+        <label class="textbox"></label>
+            <input type="text">
+
+        
+
+
+
+    </fieldset>
+
+    <label id="submit"></label>
+            <input type="submit" value="Confirm">
+
+        </form>
+        <p id='review' hidden></p>   
+
+          
+        
+    </main>
+    
+        <footer>
+            <p><span id="currentyear"></span></p>
+            <p id="lastModified"></p>
+        </footer>
+</body>
+</html>

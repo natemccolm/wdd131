@@ -25,39 +25,27 @@
             </select>
         </label>
 
-       <label class="ratingLabel">Overall Rating</label>
-        <div class="customer"></div>
-        <input type="radio" name="customer" for="1 star" required>&#9734;
-        <input type="radio" name="customer" for="2 star" required>&#9734;&#9734;
-        <input type="radio" name="customer" for="3 star" required>&#9734;&#9734;&#9734;
-        <input type="radio" name="customer" for="4 star" required>&#9734;&#9734;&#9734;&#9734;
-        <input type="radio" name="customer" for="5 star" required>&#9734;&#9734;&#9734;&#9734;&#9734;
-    
-
-        <label class="install">Date Installed</label>
-        <input type="date" name="completedDate" required>
-        
-        <label class="features"></label>
-        <div>Which Features did you find useful in the product?</div>
-        <p>Please check all that apply...</p>
-        <input type="checkbox" for="durability" value="Yes">Durability
-        <input type="checkbox" for="ease of Use" value="Yes">Coding
-        <input type="checkbox" for="performance" for="Yes">Preprocessor
-        <input type="checkbox" name="design" value="Yes">FTP Client
-        <label for="written review">Written Review<span class="optional">(optional)</span></lebal>
-        <label class="textArea"></label>
-            
-            <textarea id='textAreaID' name='textAreaName' rows="2" cols="200">
-
-            </textarea>
-        
-        <label for="'your name">Your name<span class="optional">(optional)</span></label>
-        <label class="textbox"></label>
-            <input type="text">
-
-        
-
-
+        <div class="title">Overall Rating (required)</div>
+        <label class="rating-label" for="1star">⭐<br><input aria-label="input" id="1star" type="radio" name="rating" required></label>
+        <label class="rating-label" for="2star">⭐⭐<br><input aria-label="input" id="2star" type="radio" name="rating" required></label>
+        <label class="rating-label" for="3star">⭐⭐⭐<br><input aria-label="input" id="3star" type="radio" name="rating" required></label>
+        <label class="rating-label" for="4star">⭐⭐⭐⭐<br><input aria-label="input" id="4star" type="radio" name="rating" required></label>
+        <label class="rating-label" for="5star">⭐⭐⭐⭐⭐<br><input aria-label="input" id="5star" type="radio" name="rating" required></label>
+        <div id="install-date">Date of Installation</div>        
+        <label><input aria-label="input" type="date"  name="installation" required></label>
+        <div class="title">Which features did you find useful in this product?</div>
+        <div>(<i>Check all that apply</i>)</div>
+        <label class="checkbox-label" for="durability"><input aria-label="input" type="checkbox" id="durability" name="Durability" value="yes"> Durability<br></label>
+        <label class="checkbox-label" for="ease-use"><input aria-label="input" type="checkbox" id="ease-use" name="Ease of Use" value="yes"> Ease of Use<br></label>
+        <label class="checkbox-label" for="performance"><input aria-label="input" type="checkbox" id="performance" name="Performance" value="yes"> Performance<br></label>
+        <label class="checkbox-label" for="design"><input aria-label="input" type="checkbox" id="design" name="Design" value="yes"> Design<br></label>
+        <div class="title">Written Review (<i>optional</i>)</div>
+        <label for="review-box">Written Review(optional):</label>
+        <textarea aria-label="text area" id="review-box" name="Written Review"></textarea>
+        <div class="title">Your Name (<i>optional</i>)</div>
+        <label for="name-input">Your Name (optional):</label>
+        <input aria-label="input" type="text" id="name-input" name="your name">
+        <input aria-label="input" type="submit" id="submit-button" value="Leave Your Review">
 
     </fieldset>
 
