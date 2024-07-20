@@ -146,3 +146,6 @@ angelDeck.addEventListener('click', () => {
 	cardCount.innerHTML='There are ' +angelDeckBuild.length + ' unique cards in this deck.'
     headingCategory.innerHTML='Angel';
 	})
+
+
+    

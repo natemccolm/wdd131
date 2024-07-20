@@ -143,11 +143,11 @@ nav{
   content: 'X';
 }
 
-
-
-.res-grid img {
-  max-height: 500px;
+img {
+  max-height: 250px;
+  max-width:200px;
 }
+
 
 section{
   margin: 5px;
