@@ -54,15 +54,4 @@ const products = [
   }
 
   
-let reviews=1
- 
-if (localStorage.getItem('reviews')) {
-	reviews=parseInt(localStorage.getItem('reviews'));
-	reviews++;}
-
-
-
-document.getElementById("review").textContent=reviews;
-localStorage.setItem("reviews",reviews);
-;
- 
+if 

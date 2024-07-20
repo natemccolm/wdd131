@@ -42,17 +42,38 @@ header h1{
     color: #d8f2fd;
 }
 
+#stars{
+display: flex;
+}
+
+fieldset{
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.rating-label{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
 .title{
-    display: grid;
+
+    display:flex;
     justify-content: center;
     background-color: #333333;
     font-size: larger;
     color: rgb(255, 255, 255);
     height: 30px;
     margin-top: 0px;
+    width: 100%;
     border: 1px;
 }
 
+#review-box{
+    display: grid;
+    justify-content: center;
+}
 
 main figure{
     display: flex;
@@ -97,7 +118,7 @@ footer {
 }
 
 .res-grid img {
-    max-height: 250px;
+    max-height: 400px;
 
 }
 
@@ -168,6 +189,11 @@ section{
     display: grid;
     justify-content: space-evenly;
 }
+
+#cardNum{
+    height: 20px;
+    width: 100%;
+  }
 
 }
 

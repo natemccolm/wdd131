@@ -6,6 +6,7 @@
         <meta name="author" content="Nate McColm">
         <link rel="stylesheet" href="/project/styles/project-large.css">
         <link rel="stylesheet" href="/project/styles/project.css">
+        <script src='/project/scripts/deckArray.js'></script>
         <script src="/project/scripts/project.js" defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,38 +14,47 @@
 <body>
     <header>
         <h1>Deck Showcase</h1>
-          <nav>
-            <button id="menu">Menu</button>
+         
+        <nav>
+          <button id="menu">Menu</button> 
+          <div id="navSpacing">
             <ul class="nav">
-              <li><a href='#' id='home'>Home</a></li>
-              <li><a href="#" id="vampire">Vampire</a></li>
-              <li><a href="#" id="dinosaur">Dinosaur</a></li>
-              <li><a href="#" id="counter">Counter</a></li>
-              <li><a href="#" id="sliver">Sliver</a></li>
-              <li><a href="#" id="angel">Angel</a></li>
+              <li><a href="/project/index.html" id="home">Home</a></li>
+              <li><a href="/project/angels.html" id="angel">Angel</a></li>
+              <li><a href="/project/counters.html" id="counter">Counter</a></li>
+              <li><a href="/project/dinosaurs.html" id="dinosaur">Dinosaur</a></li>
+              <li><a href="/project/slivers.html" id="sliver">Sliver</a></li>
+              <li><a href="/project/vampires.html" id="vampire">Vampire</a></li>
+
             </ul>
+
             <ul class="nav" id="subNav">
                 <li><a href='#' id="all">All</a></li>
-                <li><a href='#' id="artifacts">Artifacts</a></li>
-                <li><a href='#' id="creatures">Creatures</a></li>
-                <li><a href='#' id="instants">Instants</a></li>
+                <li><a href='#' id="artifacts">Artifact</a></li>
+                <li><a href='#' id="creatures">Creature</a></li>
+                <li><a href='#' id="enchantments">Enchantment</a></li>
+                <li><a href='#' id="instants">Instant</a></li>
                 <li><a href='#' id="land">Land</a></li>
                 <li><a href='#' id="other">Other</a></li>
-                <li><a href='#' id="planeswalkers">Planeswalkers</a></li>
-                <li><a href='#' id="other">Other</a></li>
+                <li><a href='#' id="planeswalker">Planeswalker</a></li>
                 <li><a href='#' id="sorcery">Sorcery</a></li>
               </ul>
-          </nav>
+            </div>
+        </nav>
        
-          <h2 id="category"></h2>
+          <h2 id="category">Home</h2>
     </header>
   
     <main>
-        
+
+        <h3 id="cardNum"></h3>
+
         <div class="res-grid">
             
         </div>
-        
+     
+
+
     </main>
 
     <footer>

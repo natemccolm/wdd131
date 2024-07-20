@@ -102,14 +102,14 @@
 
 nav{
   background-color: tomato;
-}
-
-.nav {
-  list-style: none;
-  margin: 0 auto;
-  max-width: 650px;
 
 }
+
+#navSpacing{
+  display: flex;
+  justify-content: space-around;
+}
+
 
 .nav li{
   display: none;
@@ -146,8 +146,7 @@ nav{
 
 
 .res-grid img {
-  max-height: 250px;
-  max-width: 100px;
+  max-height: 500px;
 }
 
 section{
@@ -160,5 +159,25 @@ section{
   justify-items: center;
 }
 
+#cardNum{
+  height: 60px;
+  width: 100%;
+}
+
+#category{
+  display: flex;
+  justify-content: center;
+}
+
+.rating-label {
+  float: left;
+  padding: 0 1em;
+  padding-bottom: 1.2rem;
+  text-align: center;
+}
+
+#stars{
+  display: flex;
+  }
 
 }
