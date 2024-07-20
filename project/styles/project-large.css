@@ -118,10 +118,10 @@ footer {
 }
 
 .res-grid img {
-    max-height: 250px;
-    max-width:200px;
+    max-height: 340px;
+    max-width:240px;
 
-}
+  }
 
 #menu.show::before {
     content:"X"
