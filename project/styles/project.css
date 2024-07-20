@@ -86,98 +86,100 @@
 
 
 
-#menu{
-  display: block;
-  font-size: 2rem;
-  font-weight: 700;
-  text-decoration: none;
-  padding: .5rem .75rem;
-  background-color: #eee;
-  color: #000;
-}
-
-#menu::before {
-  content: '☰';
-}
-
-nav{
-  background-color: tomato;
-
-}
-
-#navSpacing{
-  display: flex;
-  justify-content: space-around;
-}
-
-
-.nav li{
-  display: none;
-}
-
-.nav a{
-  display: block;
-  padding: .75rem;
-  text-align: left;
-  text-decoration: none;
-  color: black;
-  font-weight: 700;
-  transition: 0.5s;
-  font-size: clamp(1rem, 2vmin, 1.5rem);
-}
-
-.nav a:hover {
-  color: white;
-}
-
-.nav a:active {
-  color: white;
-}
-
-.show li {
-  display: block;
-}
-
-
-#menu.show::before {
-  content: 'X';
-}
-
-img {
-  max-height: 250px;
-  max-width:200px;
-}
-
-
-section{
-  margin: 5px;
-  background-color: rgb(238 238 238);     
-  border-color: #174e70;
-  border-style: solid;
-  width:100%;
-  display: grid;
-  justify-items: center;
-}
-
-#cardNum{
-  height: 60px;
-  width: 100%;
-}
-
-#category{
-  display: flex;
-  justify-content: center;
-}
-
-.rating-label {
-  float: left;
-  padding: 0 1em;
-  padding-bottom: 1.2rem;
-  text-align: center;
-}
-
-#stars{
-  display: flex;
+  #menu{
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: .5rem .75rem;
+    background-color: #eee;
+    color: #000;
   }
+
+  #menu::before {
+    content: '☰';
+  }
+
+  nav{
+    background-color: tomato;
+
+  }
+
+  #navSpacing{
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+  .nav li{
+    display: none;
+  }
+
+  .nav a{
+    display: block;
+    padding: .75rem;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    transition: 0.5s;
+    font-size: clamp(1rem, 2vmin, 1.5rem);
+  }
+
+  .nav a:hover {
+    color: white;
+  }
+
+  .nav a:active {
+    color: white;
+  }
+
+  .show li {
+    display: block;
+  }
+
+
+  #menu.show::before {
+    content: 'X';
+  }
+
+
+
+  .res-grid img {
+    max-height: 250px;
+    max-width:200px;
+
+  }
+
+  section{
+    margin: 5px;
+    background-color: rgb(238 238 238);     
+    border-color: #174e70;
+    border-style: solid;
+    width:100%;
+    display: grid;
+    justify-items: center;
+  }
+
+  #cardNum{
+    height: 60px;
+    width: 100%;
+  }
+
+  #category{
+    display: flex;
+    justify-content: center;
+  }
+
+  .rating-label {
+    float: left;
+    padding: 0 1em;
+    padding-bottom: 1.2rem;
+    text-align: center;
+  }
+
+  #stars{
+    display: flex;
+    }
 
 }
